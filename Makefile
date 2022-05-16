@@ -1,4 +1,4 @@
-LIBS = /usr/lib/bitarray.so
+LIBS = /usr/local/lib/bitarray.so
 all: ieee754
 
 ieee754: main.c
