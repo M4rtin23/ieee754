@@ -7,5 +7,8 @@ ieee754: main.c
 install: all
 	cp ieee754 /usr/local/bin/
 
+uninstall:
+	rm -f /usr/local/bin/ieee754
+
 clean:
 	rm -f ieee754
